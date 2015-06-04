@@ -18,4 +18,7 @@
 	<!-- <mvc:view-controller path="/" view-name="jsp/login"/> -->
 	<context:component-scan base-package="com.uniform.accountplatform.web"/>
 	
+	<mvc:annotation-driven/>
+	
+	<mvc:resources mapping="/js/**" location="/js/"/>
 </beans>
